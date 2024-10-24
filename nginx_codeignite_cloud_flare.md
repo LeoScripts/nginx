@@ -1,3 +1,8 @@
+# configuração ja validada usando a Cloud flare
+
+lembrar de colocar o namespaces da cloudflare onde voce comprou o seu dominio
+
+```
 server {
     server_name dominio www.dominio;
 
@@ -22,3 +27,5 @@ server {
         deny all;
     }
 }
+
+```
